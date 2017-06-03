@@ -1,0 +1,81 @@
+body {
+	background-color: #2B2620;
+}
+
+a {
+	color: #336294;
+}
+
+a:hover {
+	color: #162a40;
+}
+
+hr {
+	color: #656255;
+	background-color: #656255;
+}
+
+.navigation {
+	background-color: #4787CC;
+	border-top: 1px solid #57a5f9;
+	border-bottom: 1px solid #3c72ad;
+}
+
+.navigation a {
+	color: #2f5a88;
+}
+
+.navigation a:hover {
+	color: #162a40;
+}
+
+body.home .navigation .home,
+body.wallpaper .navigation .wallpaper,
+body.portfolio .navigation .portfolio,
+body.about .navigation .about,
+body.contact .navigation .contact,
+body.skills .navigation .skills {
+	color: #3c72ad;
+}
+
+.header {
+	color: #475821;
+	background-color: #7B993A;
+	border-top: 1px solid #92b645;
+	border-bottom: 1px solid #5a702a;
+}
+
+.header h1 {
+	color: #5a702a;
+}
+
+.content {
+	color: #545247;
+	background-color: #E5DEC2;
+	border-bottom: 1px solid #656255;
+}
+
+.content h1, .content h2, .content h3 {
+	color: #656255;
+}
+
+.business {
+	background-color: #BFB188;
+}
+
+.business h1, .business h2, .business h3 {
+	color: #413c2e;
+}
+
+.footer {
+	color: #746756;
+	background-color: #2B2620;
+}
+
+.footer a {
+	color: #5a702a;
+}
+
+img.border {
+	border: 1px solid #656255;
+}

@@ -1,0 +1,190 @@
+.container {
+	width:590px;
+	margin:0 auto;
+}
+
+a {
+	text-decoration: underline;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+body {
+	margin: 0;
+	font-size: 110%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+}
+
+ul {
+	margin-left: 0;
+	list-style: none;
+}
+
+label {
+	font-weight: normal;
+}
+
+img.border {
+	padding: 1px;
+}
+
+.navigation {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 120%;
+}
+
+.navigation a {
+}
+
+.navigation ul {
+	list-style: none;
+	margin-bottom: 0;
+}
+
+.navigation li {
+	display: inline;
+	padding-right: 30px;
+}
+
+body.home .navigation .home,
+body.wallpaper .navigation .wallpaper,
+body.portfolio .navigation .portfolio,
+body.about .navigation .about,
+body.contact .navigation .contact,
+body.skills .navigation .skills {
+	text-decoration: none;
+}
+
+.navigation, .header, .content, .business, .footer {
+	width: 100%;
+}
+
+.header, .content, .business {
+	padding-top: 20px;
+}
+
+.navigation, .header {
+	background-image: url(/images/layout/overlay-10.png);
+	background-repeat: repeat;
+}
+
+.content, .footer {
+	background-image: url(/images/layout/top-dark-01.png);
+	background-repeat: repeat-x;
+}
+
+.content {
+	background-position: 0 -25px;
+	min-height: 200px;
+}
+.footer {
+	background-position: 0 -10px;
+}
+
+.header {
+}
+
+.header h1, .header h2, .header h3 {
+}
+
+.content {
+}
+
+.content h1, .content h2, .content h3 {
+}
+
+.content ul h3 {
+	margin-bottom: 0;
+	font-size: 1.2em;
+}
+
+.business {
+	background-image: url(/images/layout/overlay-25.png);
+	background-repeat: repeat;
+}
+
+.business {
+	padding-bottom: 40px;
+}
+
+.business h1, .business h2, .business h3 {
+}
+
+
+.business a {
+}
+
+.footer {
+	font-size: 80%;
+	padding-bottom: 10px;
+	padding-top: 120px;
+}
+
+.wallpaperlist h3, .wallpaperlist p {
+	margin-bottom: 0;
+}
+
+.wallpaperlist {
+	font-size: 70%;
+}
+
+.wallpaperitem {
+	height: 26em;
+}
+.wallpaperlist img {
+	margin: 1em 0 1em 0;
+}
+
+.home .content h2 {
+	margin-bottom: .1em;
+}
+
+.clientlist {
+	font-size: 80%;
+}
+
+.clientitem h3 {
+	font-size: 200%;
+}
+
+.clientitem .image {
+	padding-bottom: 1em;
+	float: right;
+}
+
+.clientitem .image p {
+	text-align: center;
+	margin-bottom: 0;
+}
+
+.clientitem .image p img {
+	display: inline;
+	float: none;
+	margin: 0;
+}
+
+.clientitem p.url {
+	margin-top: 0;
+}
+
+.floatright {
+	float: right;
+}
+.floatleft {
+	float: left;
+}
+.alignright {
+	text-align: right;
+}
+.alignleft {
+	text-align: left;
+}
+.aligncenter {
+	text-align: center;
+}
